@@ -1,14 +1,14 @@
-show_login_options: true
+show_login_options: false
 login_url: "#"
 signup_url: "#"
 menu:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Portfolio
-    url: /portfolio/
-  - title: Blog
-    url: /blog/
-  - title: Contact
-    url: /contact/
+  # - title: About
+  #   url: /
+  # - title: The Method
+  #   url: /the-method/
+  # - title: Book
+  #   url: /sustainability-simplified/
+  # - title: Workbook
+  #   url: /workbook/
+  # - title: Workshops
+  #   url: /workshops/

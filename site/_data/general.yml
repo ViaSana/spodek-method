@@ -1,9 +1,9 @@
 website_url: 
-website_title: Dante Jekyll Theme for Static Site Generators
+website_title: Spodek Method
 description: >-
-  A starter template built with Jekyll and Bootsrap. This template is built with configurable components giving you control to customise your website.
-site_icon_image: /assets/images/logo/siteicon.png
-logo_image: /assets/images/logo/dante-logo.svg
+  The Spodek Method is a comprehensive guide to sustainability that provides a step-by-step approach to reducing your environmental impact.
+site_icon_image: 
+logo_image: 
 permalink: /:title/
 fonts:
   - font_style_url: >-
@@ -18,4 +18,4 @@ portfolio_settings:
   social_share: true
 twitter_handle: 
 canonical_url:
-baseUrl: example.com
+baseUrl: spodekmethod.com
