@@ -1,14 +1,4 @@
 show_login_options: false
-login_url: "#"
-signup_url: "#"
-menu:
-  # - title: About
-  #   url: /
-  # - title: The Method
-  #   url: /the-method/
-  # - title: Book
-  #   url: /sustainability-simplified/
-  # - title: Workbook
-  #   url: /workbook/
-  # - title: Workshops
-  #   url: /workshops/
+login_url: '#'
+signup_url: '#'
+menu: SpodekMethod.com
