@@ -187,3 +187,10 @@ collection_groups:
 _structures:
   content_blocks:
     style: "modal"
+
+build:
+  commands:
+    - cd site
+    - npm install
+    - bundle install
+    - bundle exec jekyll build
