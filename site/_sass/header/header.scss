@@ -1,8 +1,8 @@
 .c-header { $c: &;
 	background-color: var(--white);
 	z-index: 10;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	// padding-top: 10px;
+	// padding-bottom: 10px;
 
 	@media only screen and (max-width: 991px) {
 		padding-top: 5px;
@@ -168,21 +168,21 @@
 			color: var(--theme-secondary-color);
 			font-weight: 700;
 
-			&::after {
-				content: "";
-				display: block;
-				margin: auto;
-				position: relative;
-				border-radius: 18px;
-				bottom: -8px;
-				width: 14px;
-				height: 4px;
-				background: #ffcf56;
+			// &::after {
+			// 	content: "";
+			// 	display: block;
+			// 	margin: auto;
+			// 	position: relative;
+			// 	border-radius: 18px;
+			// 	bottom: -8px;
+			// 	width: 14px;
+			// 	height: 4px;
+			// 	background: #ffcf56;
 
-				@media only screen and (max-width: 991px) {
-					content: none;
-				}
-			}
+			// 	@media only screen and (max-width: 991px) {
+			// 		content: none;
+			// 	}
+			// }
 		}
 	}
 
