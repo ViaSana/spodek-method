@@ -1,3 +1,4 @@
 #!/bin/bash
 echo "Running prebuild script..."
+cd site
 npm install
