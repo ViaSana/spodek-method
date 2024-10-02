@@ -193,4 +193,4 @@ build:
     - cd site
     - npm install
     - bundle install
-    - bundle exec jekyll build
+    - bundle exec jekyll build --source site
