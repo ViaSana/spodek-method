@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Running prebuild script..."
+npm install
