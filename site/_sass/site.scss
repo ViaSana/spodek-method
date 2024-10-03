@@ -14,7 +14,7 @@ body {
 /* ------------------------------ Variables -------------------------- */
 
 :root {
---theme-font-family: 'Inter', 'Open Sans', Arial;
+--theme-font-family: "Libre Franklin", system-ui;
 --theme-font-size: 16px; 
 --theme-font-weight: normal;
 --theme-font-color: var(--body-color);
@@ -37,7 +37,7 @@ body {
 --theme-h3-font-size: 30px;
 --theme-h3-font-weight:500;
 --theme-h3-font-color:var(--theme-primary-color);
---theme-h3-font-family: 'Inter', 'Open Sans', Arial;
+--theme-h3-font-family: "Libre Franklin", system-ui;
 --theme-h3-line-height: 36px;
 
 --theme-h4-font-size: 24px;
@@ -61,12 +61,12 @@ body {
 --theme-anchor-color: var( --theme-primary-color );
 --theme-anchor-hover-color: var( --theme-secondary-color );
 
---theme-primary-color: #2d3663;
---theme-primary-bgcolor: #2d3663;
---theme-secondary-color: #6e92ff;
---theme-secondary-bgcolor: #6e92ff;
---theme-tertiary-color: #00398f;
---theme-tertiary-bgcolor: #00398f;
+--theme-primary-color: #B0C4DE;
+--theme-primary-bgcolor: #FFFDF8;
+--theme-secondary-color: #CB1C1A;
+--theme-secondary-bgcolor: #010101;
+--theme-tertiary-color: #00AE00;
+--theme-tertiary-bgcolor: #FFFFF7;
 
 --theme-box-shadow-primary-color: rgba(107, 124, 141, 0.08);
 --theme-box-shadow-secondary-color: rgba(107, 124, 141, 0.25);
@@ -312,4 +312,18 @@ button:focus,
 	.scroll-top {
 		bottom:65px;
 	}
+}
+
+// Added by me
+.side-by-side-images {
+  display: flex;
+  justify-content: space-around;
+	padding: 10px 40px;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.side-by-side-images img {
+  width: 38%; /* Adjust as needed */
+  height: auto;
+	border: 2px solid black;
 }
