@@ -64,14 +64,14 @@
 			letter-spacing: 5px;
 			text-transform: uppercase;
 			
-			&::after {
-				content: "";
-				background-color: #6e92ff;
-				height: 1px;
-				position: absolute;
-				top: 50%;
-				width: 30px;
-			}
+			// &::after {
+			// 	content: "";
+			// 	background-color: #6e92ff;
+			// 	height: 1px;
+			// 	position: absolute;
+			// 	top: 50%;
+			// 	width: 30px;
+			// }
 
 			span {
 				padding-right: 16px;
