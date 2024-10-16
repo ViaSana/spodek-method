@@ -5,7 +5,6 @@
   "scripts": {
     "bookshop": "bookshop-browser",
     "jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll serve --port 6060 --trace --unpublished --source site",
-    "build": "npx bookshop build site --builder 'bundle exec jekyll'",
     "start": "run-p bookshop jekyll",
     "postinstall": "mkdir -p site/node_modules/.bin/ && ln -sf ../../../node_modules/.bin/postcss site/node_modules/.bin/postcss"
   },
